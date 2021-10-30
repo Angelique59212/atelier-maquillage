@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lato:wght@100;400&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4.2rem;
+    margin-left: 30rem;
+}
+
+#top {
+    width: 60%;
+    margin-left: 30rem;
+}
+
+#queen {
+    display: inline-block;
+    width: 30%;
+}
+
+#time {
+    display: inline-block;
+    width: 25%;
+    margin-left: 30rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#middle {
+    width: 25%;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 50rem;
+    color: deeppink;
+}
+
+#bottom {
+    width: 60%;
+    margin-left: 30rem;
+    margin-top: 3rem;
+}
+
+#french {
+    display: inline-block;
+}
+
+#rdv {
+    display: inline-block;
+    width: 25%;
+    font-weight: bold;
+    margin-left: 17rem;
+    margin-bottom: 3rem;
+    font-size: 3.8rem;
+}
